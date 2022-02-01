@@ -2,6 +2,14 @@ ENDPOINT_URL = "https://npiregistry.cms.hhs.gov/api"
 TARGET_VERSION = "2.1"
 
 class NpiSearchesController < ApplicationController
+  def index
+
+  end
+
+  def show
+    
+  end
+
   def new
     @results = []
     return unless params[:first_name].present? || params[:last_name].present?
