@@ -1,0 +1,2 @@
+class NpiSearchesController < ApplicationController
+end
